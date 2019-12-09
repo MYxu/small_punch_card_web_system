@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 import './plugins/element.js'
 import api from './api/api_modules'
+import 'normalize.css/normalize.css'
 
 Vue.prototype.$api = api
 

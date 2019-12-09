@@ -1,19 +1,27 @@
 <template>
-  <div id="wrapper">
-    <header-bar></header-bar>
-    <sidebar></sidebar>
+  <div id="home-box">
+    <div v-for="item in list" v-bind:key="item"></div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import headerBar from '@/views/layout/header'
-import sidebar from '@/views/layout/sidebar'
 export default {
   name: 'home',
-  components: {
-    headerBar,
-    sidebar
-  }
+  data: function () {
+    return {
+      list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    }
+  },
+  components: {}
 }
 </script>
+
+<style scoped lang="stylus">
+  #home-box {
+    div {
+      height 100px
+      border-bottom 1px solid red
+    }
+  }
+</style>
