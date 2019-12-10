@@ -12,9 +12,9 @@ export default {
 
 <style scoped lang="stylus">
   #content {
-    overflow hidden
     height 100%
     box-sizing border-box
     margin-left 200px
+    padding-top 70px
   }
 </style>

@@ -14,7 +14,7 @@ export default {
   width 100vw
   line-height 70px
   text-align center
-  background-color whitesmoke
   position fixed
+  border-bottom 1px solid whitesmoke
 }
 </style>

@@ -38,13 +38,11 @@ export default {
 
 <style scoped lang="stylus">
   #app {
-    font-family 'Avenir', Helvetica, Arial, sans-serif
-    -webkit-font-smoothing antialiased
-    -moz-osx-font-smoothing grayscale
-  }
-  html, body #app {
     height 100%
     width 100%
     overflow hidden
+    font-family 'Avenir', Helvetica, Arial, sans-serif
+    -webkit-font-smoothing antialiased
+    -moz-osx-font-smoothing grayscale
   }
 </style>
