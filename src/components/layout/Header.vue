@@ -16,5 +16,6 @@ export default {
   text-align center
   position fixed
   border-bottom 1px solid whitesmoke
+  background-color white
 }
 </style>

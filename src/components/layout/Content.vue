@@ -15,6 +15,7 @@ export default {
     height 100%
     box-sizing border-box
     margin-left 200px
-    padding-top 70px
+    padding-top  90px
+    background-color #f9f9f9
   }
 </style>

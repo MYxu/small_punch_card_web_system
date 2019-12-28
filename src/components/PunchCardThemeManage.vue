@@ -1,13 +1,13 @@
+<!--打卡主题管理组件-->
 <template>
-  <div id="home-box">
-    <div v-for="item in list" v-bind:key="item" v-html="item"></div>
+  <div id="punch-card-theme-info-container">
+    主题管理页面
   </div>
 </template>
-
 <script>
 // @ is an alias to /src
 export default {
-  name: 'home',
+  name: 'PunchCardThemeManage',
   data: function () {
     return {
       list: [1, 2, 3, 4, 5, 6]
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-  #home-box {
+  #punch-card-theme-info-container {
     width 100%
     height 100%
     /* 当子元素高度超出父级元素高度时，子元素会撑开父级元素，页面自动出现滚动条*/
@@ -28,14 +28,6 @@ export default {
      * 可以通过F12调试慢慢减少padding-right的值你就会发现滚动条了
      */
     padding-right 30px
-    border-right 1px solid whitesmoke
-
-    div {
-      height 300px
-      border-bottom 1px solid whitesmoke
-      display flex
-      flex-direction column
-      justify-content flex-end
-    }
+    background-color white
   }
 </style>
